@@ -17,11 +17,9 @@ function Hero() {
       >
         <div className="col-6 p-5">
           <p>
-            We kick-started operations on the 15th of August, 2010 with the goal
-            of breaking all barriers that traders and investors face in India in
-            terms of cost, support, and technology. We named the company
-            Zerodha, a combination of Zero and "Rodha", the Sanskrit word for
-            barrier.
+            We launched Niveshek with a vision to simplify investing for every Indian by removing the barriers of high costs, limited support, and outdated technology. Inspired by the Sanskrit word "Nivesh" meaning investment, Niveshek represents our commitment to making investing smarter, accessible, and truly empowering.
+
+
           </p>
           <p>
             Today, our disruptive pricing models and in-house technology have

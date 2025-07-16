@@ -2,13 +2,13 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer style={{ backgroundColor: "rgb(250, 250, 250)" }}>
+    <footer style={{  background: "linear-gradient(to right, #aed5dfff, #6ec3d6ff, #74abbcff, #00a7cdff)"  }}>
       <div className="container border-top mt-5">
         <div className="row mt-5">
           <div className="col">
-            <img src="media/images/logo.svg" style={{ width: "50%" }} />
+            <img src="media/images/-logo.webp" style={{ width: "50%" }} />
             <p>
-              &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.
+              &copy; 2010 - 2024, Not Niveshak Broking Ltd. All rights reserved.
             </p>
           </div>
           <div className="col">
@@ -23,11 +23,11 @@ function Footer() {
             <br />
             <a href="">Careers</a>
             <br />
-            <a href="">Zerodha.tech</a>
+            <a href="">Niveshak.tech</a>
             <br />
             <a href="">Press & media</a>
             <br />
-            <a href="">Zerodha cares (CSR)</a>
+            <a href="">Niveshak cares (CSR)</a>
             <br />
           </div>
           <div className="col">
@@ -55,11 +55,11 @@ function Footer() {
         </div>
         <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
           <p>
-            Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
-            INZ000031633 CDSL: Depository services through Zerodha Securities
+            Niveshak Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
+            INZ000031633 CDSL: Depository services through Niveshak Securities
             Pvt. Ltd. – SEBI Registration no.: IN-DP-100-2015 Commodity Trading
-            through Zerodha Commodities Pvt. Ltd. MCX: 46025 – SEBI Registration
-            no.: INZ000038238 Registered Address: Zerodha Broking Ltd.,
+            through Niveshak Commodities Pvt. Ltd. MCX: 46025 – SEBI Registration
+            no.: INZ000038238 Registered Address: Niveshak Broking Ltd.,
             #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School,
             J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any
             complaints pertaining to securities broking please write to
@@ -95,7 +95,7 @@ function Footer() {
             of allotment. In case of non allotment the funds will remain in your
             bank account. As a business we don't give stock tips, and have not
             authorized anyone to trade on behalf of others. If you find anyone
-            claiming to be part of Zerodha and offering such services, please
+            claiming to be part of Niveshak and offering such services, please
             create a ticket here.
           </p>
         </div>

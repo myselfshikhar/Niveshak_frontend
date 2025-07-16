@@ -11,8 +11,12 @@ function Hero() {
                 </p>
                 <button
                     className="p-2 btn btn-primary fs-5 mb-5"
-                    style={{ width: "20%", margin: "0 auto" }}
-                >Signup Now</button>
+                    style={{ width: "20%", margin: "0 auto", display: "block" }}
+                    onClick={() => window.location.href = "http://localhost:3000/Signup"}
+                >
+                    Signup Now
+                </button>
+
                 {/* btn-primary is used to make this colr blue button  */}
             </div>
         </div>
