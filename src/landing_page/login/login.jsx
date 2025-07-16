@@ -33,6 +33,14 @@ const Login = () => {
       ? "http://localhost:3002"
       : "https://niveshak-backend.onrender.com";
 
+
+
+          const Dashboard_link =
+    window.location.hostname === "localhost"
+      ? "http://localhost:8000"
+      : "https://niveshak-dashboard.vercel.app/";
+
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -47,7 +55,7 @@ const Login = () => {
       const { success, message } = data;
       if (success) {
         handleSuccess(message);
-        window.location.replace("http://localhost:8000");
+        window.location.replace(`${Dashboard_link}`);
       } else {
         handleError(message);
       }
